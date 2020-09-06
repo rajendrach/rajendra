@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
+import ThemeChanger from "./themeChanger"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -56,6 +57,9 @@ const Layout = ({ location, title, children }) => {
                 Blog
               </Link>
           </h1>
+          </li>
+          <li>
+          <ThemeChanger/>
           </li>
       </ul>
 
