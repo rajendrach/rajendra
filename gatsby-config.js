@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Naga Rajendra Chamata`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Naga Rajendra Chamata`,
+      summary: `who lives and works in Dallas building useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Rajendra's Thoughts and Treasures.`,
+    siteUrl: `https://rajendra.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `rajendrach`,
     },
   },
   plugins: [

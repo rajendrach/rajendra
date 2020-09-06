@@ -9,9 +9,20 @@ const Layout = ({ location, title, children }) => {
 
   if (location.pathname === rootPath) {
     header = (
-      <h1
+      <nav>
+        <ul
+          style={{
+            display: `flex`,
+            flexWrap: `wrap`,
+            justifyContent: `space-between`,
+            listStyle: `none`,
+            padding: 0,
+          }}
+        >
+          <li>
+          <h1
         style={{
-          ...scale(1.5),
+          ...scale(0.5),
           marginBottom: rhythm(1.5),
           marginTop: 0,
         }}
@@ -26,6 +37,31 @@ const Layout = ({ location, title, children }) => {
           {title}
         </Link>
       </h1>
+          </li>
+          <li>
+          <h1
+              style={{
+                ...scale(0.5),
+                marginBottom: rhythm(1.5),
+                marginTop: 0,
+              }}
+            >
+            <Link
+              style={{
+                boxShadow: `none`,
+                color: `inherit`,
+              }}
+            to="/blog"
+              >
+                Blog
+              </Link>
+          </h1>
+          </li>
+      </ul>
+
+
+      </nav>
+
     )
   } else {
     header = (
@@ -59,9 +95,9 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()}, Built by
         {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <a href="https://www.rajendra.io">Rajendra</a>
       </footer>
     </div>
   )
