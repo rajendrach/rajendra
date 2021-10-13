@@ -65,7 +65,7 @@ const Bio = () => {
         I'm a <strong>software engineer</strong> at Microsoft with an interest for <strong>entreprenurship</strong>.
       </p>
       <p>
-        I’ve worked at a few places: American Airlines, Capitalone. I graduated from the University of Southern Mississippi with a degree in Computer Science in 2016.
+        I’ve worked at a few places: American Airlines, Capitalone. I graduated from the University of Southern Mississippi with a masters degree in Computer Science in 2012.
 
         In my free time, I make videos on <a href={`https://youtube.com/hackerheap`}>
           Youtube
